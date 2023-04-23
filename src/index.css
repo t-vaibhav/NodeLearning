@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.are {
+  background-color: aqua;
+  color: brown;
+  font-size: xx-large;
+}
