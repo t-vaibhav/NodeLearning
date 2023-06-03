@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from './Navbar'
-import Sidebar from './Sidebar'
+import Navbar from './fixedItems/Navbar'
+import Sidebar from './fixedItems/Sidebar'
 
 export default function Fixed() {
     return (

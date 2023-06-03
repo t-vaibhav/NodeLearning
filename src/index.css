@@ -7,3 +7,23 @@
   color: brown;
   font-size: xx-large;
 }
+
+div.scrollbar {
+  overflow-x: auto;
+}
+
+div.scrollbar::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+div.scrollbar:not(:hover)::-webkit-scrollbar-thumb {
+  background-color: #6d8489;
+  border-radius: 5px;
+
+}
+
+div.scrollbar:hover::-webkit-scrollbar-thumb {
+  background-color: #53686d;
+  border-radius: 5px;
+}
