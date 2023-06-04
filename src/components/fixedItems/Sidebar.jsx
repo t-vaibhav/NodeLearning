@@ -5,11 +5,11 @@ export default function Sidebar() {
         <nav className='fixed top-0 bottom-0 left-0'>
             <nav className='w-[17vw] h-[100vh] bg-gray-100 p-5 relative overflow-y-auto'>
                 <ul className='py-5  text-lg pt-16 overflow-y-auto'>
-                    <a href="" className='hover:underline'><li className='flex items-center pb-5'><img src="/images/home.png" alt="" className='pr-2 h-6' />Home </li></a>
-                    <a href="" className='hover:underline'><li className='flex items-center pb-5'><img src="/images/trend.png" alt="" className='pr-2 h-6' />Trending</li></a>
-                    <a href="" className='hover:underline'><li className='flex items-center pb-5'><img src="/images/learn.png" alt="" className='pr-2 h-6' />Learn</li></a>
-                    <a href="" className='hover:underline'><li className='flex items-center pb-5'><img src="/images/messaging.png" alt="" className='pr-2 h-6' />Messaging</li></a>
-                    <a href="" className='hover:underline'><li className='flex items-center pb-5'><img src="/images/premium.png" alt="" className='pr-2 h-6' />Premium</li></a>
+                    <a href="/" className='hover:underline'><li className='flex items-center pb-5'><img src="/images/home.png" alt="" className='pr-2 h-6' />Home </li></a>
+                    <a href="/trending" className='hover:underline'><li className='flex items-center pb-5'><img src="/images/trend.png" alt="" className='pr-2 h-6' />Trending</li></a>
+                    <a href="/learn" className='hover:underline'><li className='flex items-center pb-5'><img src="/images/learn.png" alt="" className='pr-2 h-6' />Learn</li></a>
+                    <a href="/chat" className='hover:underline'><li className='flex items-center pb-5'><img src="/images/messaging.png" alt="" className='pr-2 h-6' />Messaging</li></a>
+                    <a href="/premium" className='hover:underline'><li className='flex items-center pb-5'><img src="/images/premium.png" alt="" className='pr-2 h-6' />Premium</li></a>
                     <a href="" className='hover:underline'><li className='flex items-center pb-5'><img src="/images/setting.png" alt="" className='pr-2 h-6' />Settings</li></a>
 
                 </ul>

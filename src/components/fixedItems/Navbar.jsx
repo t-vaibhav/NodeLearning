@@ -6,7 +6,8 @@ export default function Navbar() {
         <nav className='h-16 z-20'>
             <div className=' p-2 px-8 bg-gray-100 flex justify-between fixed top-0 left-0 right-0 border-b-[1px] border-b-gray-200 shadow-md'>
                 <div>
-                    <a href=""><img src="/images/logo2.png" alt="" className='h-10' /></a>
+                    <a href="/" className='flex items-center space-x-2'><img src="/images/logo2.png" alt="" className='h-10' /> <span className='text-xl font-bold'>WePeek</span></a>
+
                 </div>
                 <div className=' relative'>
 
